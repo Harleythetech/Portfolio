@@ -1,5 +1,5 @@
 const version = document.getElementById('version');
-version.innerHTML = "V1.0.0";
+version.innerHTML = "V1.5.0";
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
