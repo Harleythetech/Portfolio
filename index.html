@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="./src/Images/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbg shadow p-3 mx-3 mt-2 rounded-2 fixed-top">
+        <div class="container-fluid shadows d-flex justify-content-between">
+
+            <a href="#Home" class="navbar-brand"><img src="./src/Images/Logo.png" alt="Harleyyyu" width="60"></a>
+            <!--Branding-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navlinks"
+                aria-controls="navlinks" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button> <!--Toggler for navigation bar in mobile view-->
+
+
+
+            <div class="collapse navbar-collapse" id="navlinks">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!--Navigation links-->
+                    <li class="nav-item">
+                        <a href="#Home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#About" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Projects" class="nav-link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#Contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <hr class="d-lg-none">
+                <div>
+                    <i class="bi bi-patch-check-fill"></i>
+                    <a href="https://github.com/Harleythetech/Portfolio" class="link-underline link-underline-opacity-0"><span class="navbar-text ps-1" id="version"></span></a>
+                    <!--Sample text alligned to left (can be used for various things)-->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="d-flex flex-wrap vh-100 align-items-center bg" id="Home">
+        <div class="container-fluid px-5 pt-5 pt-md-0">
+            <div>
+                <div class="row row-cols-1 row-cols-md-2 p-3" data-aos="fade">
+                    <div class="col d-flex flex-wrap align-items-center">
+                        <div>
+                            <div>
+                                <h1>Jovellano, Vincent Harley R.</h1>
+                                <p class="lead">A Programmer, Graphics Designer, Car & Tech Enthusiasts </p>
+                                <p><i class="bi bi-geo-alt-fill"></i> San Pablo City, Laguna, Philippines</p>
+                            </div>
+
+                            <div class="pt-4">
+                                <a href="#Contact" class="btn btn-success">Contact</a>
+                                <a href="#About" class="btn btn-outline-dark">About</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="w-50">
+                            <img src="./src/Images/profile.jpg" alt="Jovellano, Vincent Harley R. (Harleyyyu)"
+                                class="img-fluid rounded-circle border border-3 border-success">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section  class="p-4 pt-0" id="About" data-aos="fade-up">
+
+        <div class="navbg rounded rounded-3 shadow px-5 py-4 d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">Hi, I'm Harley!</h3>
+            <p class="mb-0">About</p>
+        </div>
+        <div class="navbg rounded rounded-3 shadow p-5 mt-3">
+            <p>A 20 year-old student developer from the Philippines with a passion for coding, technology, and creative
+                design. Currently studying Information Technology, I'm constantly exploring new ways to improve user
+                experiences through intuitive and polished interfaces. <br> <br>
+
+                I have experience with languages like C#, MySQL, HTML, CSS, Java, and JavaScript. My focus is on
+                crafting seamless user interfaces and practical solutions, whether it's developing web applications,
+                creating network simulations in Cisco Packet Tracer, or experimenting with Node.js for diagrams. <br>
+                <br>
+
+                Beyond coding, I'm a VTuber and an enthusiast for gaming, audio tech, car culture, and graphic design. I
+                also enjoy learning Japanese, diving into new tech trends, and sharing my creativity through my VTuber
+                persona.
+                <br> <br>
+                I'm always excited to connect with others who share my interests or who are just as passionate about
+                technology and creativity as I am!
+            </p>
+        </div>
+
+        <div class="navbg rounded rounded-3 shadow px-5 py-4 d-flex justify-content-center align-items center mt-3">
+            <a href="./src/files/Resume.pdf" class="btn btn-success me-3">Download my CV/Resume</a>
+            <a href="#Projects" class="btn btn-outline-dark"> See Projects</a>
+        </div>
+
+    </section>
+    <hr class="mt-0">
+    <section  class="p-4 pt-0" id="Skills" data-aos="fade-up">
+
+        <div class="navbg rounded rounded-3 shadow px-5 py-4 d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">Let's Talk about capabilities!</h3>
+            <p class="mb-0">Skills</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col overflow-hidden">
+                <div class="navbg rounded rounded-3 shadow p-5 mt-3 h-100">
+                    <div>
+                        <p class="lead"><b>Languages I know: </b></p>
+                    </div>
+
+                    <div>
+                        <p>Web Development: HTML, CSS (Bootstrap), Javascript</p>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <p>Node JS (Discordjs)</p>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 75%;">75%</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <p>C# - .NET MVC, Windows Forms, Xamarin (Android Deprecated)</p>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar w-75">75%</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <p>SQL</p>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 50%;">50%</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-3">
+                        <p>Java - Android, Windows Forms</p>
+                        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 40%;">40%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col overflow-hidden">
+                <div class="navbg rounded rounded-3 shadow p-5 mt-3 mt-md-3">
+                    <div>
+                        <p class="lead"><b>Tools: </b></p>
+                    </div>
+
+                    <div class="row row-cols-1 row-cols-md-2 overflow-x-scroll h-100">
+                        <div class="col">
+                            <div class="rounded rounded-3 shadow p-3 text-center">
+                                <img src="https://static.cdnlogo.com/logos/a/24/adobe-photoshop.png" width="100">
+                                <p>Adobe Photoshop</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="rounded rounded-3 shadow p-3 text-center">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1200px-Figma-logo.svg.png"
+                                    width="66">
+                                <p>Figma</p>
+                            </div>
+                        </div>
+
+                        <div class="col mt-3">
+                            <div class="rounded rounded-3 shadow p-3 text-center">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+                                    width="100">
+                                <p>Visual Studio Code</p>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="rounded rounded-3 shadow p-3 text-center">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/2060px-Visual_Studio_Icon_2019.svg.png"
+                                    width="100">
+                                <p>Visual Studio</p>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="rounded rounded-3 shadow p-3 text-center">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png"
+                                    width="160">
+                                <p>Node JS</p>
+                            </div>
+                        </div>
+                        <div class="col mt-3">
+                            <div class="rounded rounded-3 shadow p-3 text-center">
+                                <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png"
+                                    width="97">
+                                <p>Docker</p>
+                            </div>
+                        </div>
+                        <div class="col mt-3 mb-3">
+                            <div class="rounded rounded-3 shadow p-3 text-center">
+                                <img src="https://hurbad.com/wp-content/uploads/2021/12/Cisco-Packet-Tracer.png"
+                                    width="110">
+                                <p>Cisco Packet Tracer</p>
+                            </div>
+                        </div>
+                        <div class="col mt-3 mb-3">
+                            <div class="rounded rounded-3 shadow p-3 text-center">
+                                <img src="./src/Images/SMSS.png" width="97">
+                                <p>SQL Management Studio 20</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-4 pt-0" id="Projects" data-aos="fade-up">
+
+        <div class="navbg rounded rounded-3 shadow px-5 py-4 d-flex justify-content-between align-items-center">
+            <h3 class="mb-0">Stuff im currently working on</h3>
+            <p class="mb-0">Projects</p>
+        </div>
+        <div class="navbg rounded rounded-3 shadow p-5 mt-3">
+            <div class="card">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Chiyoko Haurka</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Node JS</h6>
+                    <p class="card-text">Chiyoko Haruka is a feature-packed Discord bot designed to provide a wide range
+                        of useful features and utilities to users. </p>
+                    <a href="https://github.com/Harleythetech/Chiyoko-Haruka" class="btn btn-primary">Open Github</a>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 mt-3">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">PLSPGE-WEB</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">HTML, CSS, JS</h6>
+                            <p class="card-text">The Main Website For PLSP Game Enthusiast.</p>
+                            <a href="https://github.com/PLSPGameEnt/PLSPGE-WEB" class="btn btn-primary">Open Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mt-3 mt-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Discord-Rich-Presence</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Node JS</h6>
+                            <p class="card-text">For the rich presence for Discord to be a cool kid your class !! </p>
+                            <a href="https://github.com/Harleythetech/Discord-Rich-Presence"
+                                class="btn btn-primary">Open Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">RPS-Game</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">C#</h6>
+                            <p class="card-text">Rock Paper Scissors is a basic game built on C# as a Console
+                                Application </p>
+                            <a href="https://github.com/Harleythetech/RPS-Game" class="btn btn-primary">Open Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mt-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">RPS-JS-Edition</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Node JS</h6>
+                            <p class="card-text">It's Rock Paper Scissors In JS, Based on the original C# Release
+                                (Re-encoded) </p>
+                            <a href="https://github.com/Harleythetech/RPS-JS-Edition" class="btn btn-primary">Open
+                                Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--TO ANYONE SEEING THIS, THE EMAIL SYSTEM IS WORKING.-->>
+    <!--Contact-->
+    <section id="Contact" data-aos="fade-up">
+        <div class="container-fluid text-white navbg">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col order-1 p-5">
+                    <div class="row row-cols-1">
+                        <div class="col order-1">
+                            <h3 class="text-dark">Contact</h3>
+                            <p class="text-justify text-dark">For inquiries, suggestions, or concerns, please feel free to
+                                reach out to us. We are here to help you with any questions you may have about our
+                                organization, events, or services. You can contact us via email, phone, or social media,
+                                and we will respond to your message as soon as possible. We look forward to hearing from
+                                you!</p>
+                        </div>
+                        <div class="col order-2 mb-3 d-flex align-items-center" data-aos="fade-up">
+                            <img src="./src/Images/Location.svg" alt="" width="70px" height="70px">
+                            <div class="ms-3 mt-2">
+                                <h3 class="text-dark header">Location</h3>
+                                <p class="text-dark">San Pablo City, Laguna, Philippines</p>
+                            </div>
+                        </div>
+                        <div class="col order-3 mb-3 d-flex align-items-center" data-aos="fade-up">
+                            <img src="./src/Images/email.svg" alt="" width="70px" height="70px">
+                            <div class="ms-3 mt-2">
+                                <h3 class="text-dark header">Email</h3>
+                                <p class="text-dark">ftauth@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col order-4 d-flex align-items-center" data-aos="fade-up">
+                            <img src="./src/Images/facebook.svg" alt="" width="70px" height="70px">
+                            <div class="ms-3 mt-2">
+                                <h3 class="text-dark header">Facebook</h3>
+                                <p class="text-dark">Vincent Harley R. Jovellano</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col order-2 p-5">
+                    <h3 class="text-dark">Send me a message</h3>
+                    <p class="text-dark">My current Email System is currently limited to 250 messages, please don't spam me!</p>
+                    <form method="POST" id="form">
+
+                        <!-- Replace with your Access Key -->
+                        <input type="hidden" name="access_key" value="9dacd26a-f52a-4469-bb54-6e71accce2f6">
+                        <!--Sender Email-->
+                        <div class="mb-3">
+                            <label for="user_email" class="form-label text-dark">Email address</label>
+                            <input type="email" class="form-control" id="user_mail" name="email"
+                                aria-describedby="emailHelp" placeholder="email@example.com">
+                            <div id="emailHelp" class="form-text text-dark">We'll never share your email with anyone
+                                else.</div>
+                        </div>
+                        <!--Sender Name-->
+                        <div class="mb-3">
+                            <label for="user_name" class="form-label text-dark">Name</label>
+                            <input type="text" class="form-control" id="user_name" name="name" placeholder="John Doe">
+                        </div>
+                        <!--Subject-->
+                        <div class="mb-3">
+                            <label for="user_subject" class="form-label text-dark">Subject</label>
+                            <input type="text" class="form-control" id="user_subject" name="subject"
+                                placeholder="Brief explanation of your message">
+                        </div>
+                        <!--Message-->
+                        <div class="mb-3">
+                            <label for="user_message" class="form-label text-dark">Message</label>
+                            <textarea class="form-control" id="user_message" name="message" rows="5"
+                                placeholder="Type your message here!"></textarea>
+                        </div>
+                        <!--Bot Check-->
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-success rounded rounded-5" id="result">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <hr class="mt-0 mb-0">
+        <div class="container-fluid p-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="mb-0">© 2025 Harleyyyu</p>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/vincentharleyrjovellano" class="me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="https://x.com/harleythetech" class="me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="https://github.com/Harleythetech" class="me-3"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+
+</html>
