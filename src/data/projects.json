@@ -15,11 +15,11 @@
               "actions": [
                 {
                   "label": "GitHub",
-                  "url": "#"
+                  "url": "https://github.com/Harleythetech/Portfolio"
                 },
                 {
                   "label": "View Live",
-                  "url": "#"
+                  "url": "https://harleythetech.github.io/Portfolio/"
                 }
               ]
             }
