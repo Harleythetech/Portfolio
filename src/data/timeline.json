@@ -1,0 +1,105 @@
+{
+  "education": [
+    {
+      "year": "2023 - 2027",
+      "institution": "Pamantasan ng Lungsod ng San Pablo (PLSP)",
+      "degree": "Bachelor of Science in Information Technology",
+      "specialization": "Web and Game Development",
+      "status": "ongoing",
+      "description": "Pursuing a specialized track in Web and Game Development, focusing on modern programming languages, frameworks, and game development technologies"
+    },
+    {
+      "year": "2020 - 2023",
+      "institution": "STI College San Pablo",
+      "degree": "Senior High School",
+      "track": "Technical Vocational Livelihood in Information & Communication Technology",
+      "status": "completed",
+      "description": "Specialized in Information & Communication Technology, gaining foundational knowledge in programming, networking, and computer systems"
+    },
+    {
+      "year": "2016 - 2020",
+      "institution": "Cristobal S. Conducto Memorial Integrated National High School",
+      "degree": "Junior High School",
+      "status": "completed",
+      "description": "Completed junior high school education with strong performance in mathematics and science subjects"
+    }
+  ],
+  "work_experience": [
+    {
+      "year": "January 2021 – Present",
+      "position": "Freelancer",
+      "roles": ["Programmer", "Technician", "Graphics Designer"],
+      "type": "freelance",
+      "description": "Multi-disciplinary freelance work providing comprehensive technical and creative solutions",
+      "responsibilities": [
+        "Developed systems and websites to meet client needs",
+        "Diagnosed and repaired PCs, laptops, and other electronic devices",
+        "Designed graphics for various projects, including branding and marketing materials",
+        "Collaborated with clients to understand requirements and deliver effective solutions",
+        "Applied technical and creative skills to solve diverse challenges"
+      ]
+    },
+    {
+      "year": "2019 – 2021",
+      "position": "A/V Technician", 
+      "type": "part-time",
+      "description": "Managed comprehensive audio-visual operations for worship services and live events",
+      "responsibilities": [
+        "Managed live sound mixing for worship services and events",
+        "Operated cameras for live streaming and in-house video feeds",
+        "Controlled streaming software to broadcast services online",
+        "Handled PowerPoint presentations for lyrics, sermons, and announcements on screens and LED walls",
+        "Successfully managed all A/V tasks solo, ensuring smooth and seamless service execution"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "year": "2024",
+      "title": "Web Development Fundamentals",
+      "issuer": "Self-taught",
+      "description": "Mastered HTML, CSS, JavaScript, and modern web frameworks"
+    }
+  ],
+  "achievements": [
+    {
+      "year": "2024",
+      "title": "Lead Graphic Designer - University Student Parliament",
+      "description": "Recognition as the Lead Graphic Designer of the University Student Parliament Creatives Committee 2024 - 2025",
+      "type": "leadership"
+    },
+    {
+      "year": "2024",
+      "title": "1st Place - Web Designing Contest (ICT Month)",
+      "description": "Recognition for being in 1st Place in the Web Designing Contest in Celebration of ICT Month 2024",
+      "type": "competition"
+    },
+    {
+      "year": "2023",
+      "title": "Certificate of Appreciation - Public Relations Officer",
+      "description": "Certificate of Appreciation for outstanding commitment in providing excellent service as Public Relations Officer during the Club of Programmers in the 1st Term S.Y 2022-2023",
+      "type": "service"
+    },
+    {
+      "year": "2022",
+      "title": "Event Facilitator - COPS STI Mobile League",
+      "date": "November 19, 21 & 23, 2022",
+      "description": "Recognition as facilitator during the conduct of Cops STI Mobile League Event",
+      "type": "facilitation"
+    },
+    {
+      "year": "2022",
+      "title": "Event Facilitator - Club's Major Event",
+      "date": "September 30 - October 1, 2022",
+      "description": "Recognition as facilitator during the conduct of 1st Club's Major Event",
+      "type": "facilitation"
+    },
+    {
+      "year": "2022",
+      "title": "1st Place - Web Designing Contest (ICT Fest)",
+      "date": "April 25, 2022",
+      "description": "Recognition for being in 1st place in the Web Designing Contest in celebration of ICT Fest 2022",
+      "type": "competition"
+    }
+  ]
+}

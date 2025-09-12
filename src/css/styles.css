@@ -1,0 +1,1346 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-image: url('../assets/initbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.bg-nav-blue{
+    background-color: rgba(78, 91, 146, 0.86);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 1));
+    backdrop-filter: blur(10px);
+}
+.logo{
+    width: 85px;
+    height: 50px;
+}
+
+.portfolio-title {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+
+/* Clean navbar styles - let Bootstrap handle responsive behavior */
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    transition: opacity 0.3s ease;
+    margin-left: 10px;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}
+
+.mobile-socials {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.header-main, .about-main {
+    padding-top: 80px;
+}
+
+/* Custom header colors that don't have Bootstrap equivalents */
+.header-intro, .header-name {
+    color: #C9C9E2;
+}
+
+.header-tagline, .header-description {
+    color: #8D8D8D;
+}
+
+.bg-glass2 {
+    background: rgba(17, 13, 38, 0.86);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.timeline{
+    max-height: 500px;
+}
+
+/* Timeline Tabs */
+.timeline-tabs {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.timeline-tab {
+  flex: 1;
+  padding: 8px 12px;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.timeline-tab:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.timeline-tab.active {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Timeline item categories */
+.timeline li[data-category] {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.timeline li[data-category].hidden {
+  display: none;
+}
+
+/* Sticky sidebar for about section */
+.sticky-sidebar {
+    position: sticky;
+    top: 100px; /* Account for fixed navbar + some padding */
+    height: fit-content;
+}
+
+
+.file-explorer {
+    background: rgba(17, 13, 38, 0.95);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.explorer-header {
+    background: rgba(30, 25, 60, 0.9);
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.explorer-icon {
+    font-size: 1.2rem;
+}
+
+
+
+.macos-btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.close-btn {
+    background: #ff5f57;
+}
+
+.minimize-btn {
+    background: #ffbd2e;
+}
+
+.maximize-btn {
+    background: #28ca42;
+}
+
+.macos-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Add icons on hover */
+.macos-btn:hover::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.close-btn:hover::after {
+    content: '✕';
+    background: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 8px;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+.minimize-btn:hover::after {
+    width: 6px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.maximize-btn:hover::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    background: none;
+}
+
+.address-bar {
+    background: rgba(40, 35, 70, 0.8);
+    padding: 8px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: #C9C9E2;
+}
+
+.explorer-content {
+    padding: 0;
+    min-height: 400px;
+    display: flex;
+}
+
+.folder-tree {
+    padding: 20px 15px;
+    background: rgba(25, 20, 45, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    height: 400px;
+    overflow-y: auto;
+}
+
+.tree-header {
+    margin-bottom: 15px;
+}
+
+.content-panel {
+    height: 400px;
+    overflow-y: auto;
+}
+
+.folder-item {
+    cursor: pointer;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.folder-item.active .folder-header {
+    background: rgba(60, 55, 90, 0.8);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.folder-header {
+    padding: 10px 12px;
+    background: rgba(50, 45, 80, 0.3);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.folder-header:hover {
+    background: rgba(60, 55, 90, 0.6);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.folder-contents {
+    display: none;
+}
+
+.folder-contents.active {
+    display: block;
+}
+
+.empty-state {
+    padding: 60px 20px;
+}
+
+.empty-icon {
+    font-size: 3rem;
+    opacity: 0.5;
+}
+
+.content-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.file-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: rgba(25, 20, 45, 0.4);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+}
+
+.file-item:hover {
+    background: rgba(35, 30, 55, 0.6);
+    border-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.file-icon {
+    font-size: 1.2rem;
+    margin-right: 12px;
+}
+
+.file-name {
+    color: #C9C9E2;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.file-details {
+    color: #8D8D8D;
+    font-size: 0.85rem;
+}
+
+.status-bar {
+    background: rgba(30, 25, 60, 0.9);
+    padding: 8px 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.85rem;
+    color: #8D8D8D;
+}
+
+/* Subfolder and expandable tree styles */
+.subfolder-contents {
+    background: rgba(15, 10, 30, 0.8);
+    border-left: 2px solid rgba(0, 123, 255, 0.5);
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 0 0 4px 4px;
+}
+
+.sub-file-item {
+    padding: 8px 15px;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-bottom: 3px;
+}
+
+.sub-file-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+
+.sub-file-item.active {
+    background: rgba(0, 123, 255, 0.2);
+    color: #fff;
+}
+
+.folder-icon {
+    transition: transform 0.3s ease;
+}
+
+.folder-item[aria-expanded="true"] .folder-icon {
+    transform: rotate(90deg);
+}
+
+.folder-item[aria-expanded="false"] .folder-icon {
+    transform: rotate(0deg);
+}
+
+/* General responsive improvements */
+.mobile-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Project selection styles */
+.project-selected {
+    animation: fadeIn 0.3s ease-in-out;
+    text-align: center;
+    width: 100%;
+}
+
+.project-placeholder {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.empty-state {
+    text-align: center;
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Smooth transitions for all interactive elements */
+.folder-item, .sub-file-item, .folder-header {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Focus states for accessibility */
+.folder-item:focus,
+.sub-file-item:focus {
+    outline: 2px solid rgba(0, 123, 255, 0.5);
+    outline-offset: 2px;
+}
+
+/* Active states */
+.sub-file-item.active {
+    background: rgba(0, 123, 255, 0.2);
+    color: #fff;
+    border-left: 3px solid #007bff;
+}
+
+/* Base navbar styles for all screen sizes */
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #C9C9E2 !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: white !important;
+    font-weight: 600;
+}
+
+
+/* Mobile-specific navbar styling */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        margin-top: 15px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 15px;
+        transition: all 0.15s ease;
+    }
+    
+    .navbar-collapse.collapsing {
+        border-top: 1px solid transparent;
+        padding-top: 0;
+        margin-top: 0;
+        transition: all 0.15s ease;
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 12px 0;
+        font-size: 1.1rem;
+        color: white !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .navbar-nav .nav-link:last-child {
+        border-bottom: none;
+    }
+    
+    .navbar-nav .nav-link.active {
+        color: white !important;
+        font-weight: 600;
+    }
+    
+    /* Mobile File Explorer Optimizations */
+    .file-explorer {
+        margin: 5px;
+    }
+    
+    .macos-btn {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .macos-btn:hover::after {
+        font-size: 6px;
+    }
+    
+    .minimize-btn:hover::after {
+        width: 4px;
+    }
+    
+    .maximize-btn:hover::after {
+        width: 3px;
+        height: 3px;
+    }
+    
+    .address-bar {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+    
+    .explorer-content {
+        flex-direction: column;
+        min-height: 600px;
+    }
+    
+    .folder-tree {
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        height: auto;
+        min-height: 200px;
+        padding: 15px 10px;
+    }
+    
+    .tree-header h6 {
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+    
+    .folder-header {
+        padding: 8px 10px;
+    }
+    
+    .folder-name {
+        font-size: 0.9rem;
+    }
+    
+    .sub-file-item {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+    
+    .content-panel {
+        height: 400px;
+        overflow-y: auto;
+    }
+    
+    .empty-state h5 {
+        font-size: 1rem;
+    }
+    
+    .empty-state p {
+        font-size: 0.85rem;
+    }
+    
+    .empty-icon {
+        font-size: 2rem;
+    }
+    
+    /* Mobile folder expansion improvements */
+    .subfolder-contents {
+        margin-left: 10px;
+        background: rgba(10, 5, 20, 0.9);
+    }
+    
+    /* Better touch targets for mobile */
+    .folder-item, .sub-file-item {
+        min-height: 44px;
+        touch-action: manipulation;
+    }
+}
+
+/* Tablet optimizations */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .file-explorer {
+        margin: 15px;
+    }
+    
+    .explorer-content {
+        min-height: 450px;
+    }
+    
+    .folder-tree {
+        min-height: 200px;
+    }
+    
+    .content-panel {
+        height: 250px;
+    }
+}
+
+/* Desktop-specific header styling */
+@media (min-width: 992px) {
+    .header-content {
+        margin-left: 10rem;
+    }
+    
+    /* Desktop File Explorer Optimizations */
+    .file-explorer {
+        margin: 20px 0;
+        width: 100%;
+    }
+    
+    .explorer-content {
+        min-height: 500px;
+    }
+    
+    .folder-tree {
+        height: 500px;
+        padding: 20px 15px;
+    }
+    
+    .content-panel {
+        height: 500px;
+    }
+    
+    /* Enhanced hover effects for desktop */
+    .folder-header:hover {
+        background: rgba(60, 55, 90, 0.8);
+        transform: translateX(2px);
+    }
+    
+    .sub-file-item:hover {
+        background: rgba(255, 255, 255, 0.08);
+        transform: translateX(3px);
+    }
+    
+    /* Better desktop spacing */
+    .folder-item {
+        margin-bottom: 5px;
+    }
+    
+    .sub-file-item {
+        margin-bottom: 2px;
+    }
+}
+
+/* Project table styles */
+.project-details .table {
+    background: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+
+.project-details .table th {
+    background: rgba(30, 25, 60, 0.8);
+    border: none;
+    color: #C9C9E2;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 12px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-details .table td {
+    background: rgba(25, 20, 45, 0.3);
+    border: none;
+    color: #fff;
+    padding: 15px 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.project-details .table tbody tr {
+    transition: all 0.3s ease;
+}
+
+.project-details .table tbody tr:hover {
+    background: rgba(35, 30, 55, 0.6) !important;
+    transform: translateY(-1px);
+}
+
+.project-details .table tbody tr:hover td {
+    background: transparent;
+}
+
+.project-details .badge {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    margin: 1px;
+}
+
+.project-details .btn-outline-light {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #C9C9E2;
+    font-size: 0.8rem;
+    padding: 4px 12px;
+    transition: all 0.3s ease;
+}
+
+.project-details .btn-outline-light:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Responsive table adjustments */
+@media (max-width: 768px) {
+    .project-details .table-responsive {
+        border-radius: 6px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Card-style layout for mobile */
+    .project-details .responsive-table {
+        border: none;
+    }
+    
+    .project-details .responsive-table thead {
+        display: none;
+    }
+    
+    .project-details .responsive-table tbody tr {
+        display: block;
+        background: rgba(25, 20, 45, 0.3);
+        border-radius: 8px;
+        margin-bottom: 20px;
+        padding: 18px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .project-details .responsive-table tbody tr:hover {
+        background: rgba(35, 30, 55, 0.6);
+        transform: none;
+    }
+    
+    .project-details .responsive-table tbody td {
+        display: block;
+        background: none !important;
+        border: none;
+        padding: 8px 0;
+        text-align: left;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .project-details .responsive-table tbody td:last-child {
+        border-bottom: none;
+    }
+    
+    .project-details .responsive-table tbody td:before {
+        content: attr(data-label) ": ";
+        font-weight: 600;
+        color: #C9C9E2;
+        display: block;
+        margin-bottom: 8px;
+    }
+    
+    /* Special styling for Actions section */
+    .project-details .responsive-table tbody td[data-label="Actions"]:before {
+        margin-bottom: 10px;
+    }
+    
+    .project-details .responsive-table tbody td[data-label="Actions"] .d-flex {
+        gap: 8px !important;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .project-details .badge {
+        font-size: 0.65rem;
+        padding: 2px 6px;
+        display: inline-block;
+        margin: 1px;
+        width: fit-content;
+    }
+    
+    .project-details .btn-outline-light {
+        font-size: 0.7rem;
+        padding: 3px 8px;
+        margin: 2px;
+    }
+    
+    .project-details .btn-outline-light .action-text {
+        display: inline;
+        font-size: 0.75rem;
+    }
+    
+    .project-details .btn-outline-light {
+        padding: 4px 10px;
+        margin: 2px;
+        min-width: fit-content;
+        white-space: nowrap;
+    }
+    
+    .content-panel .project-details {
+        padding: 0;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/* Desktop action button styles */
+@media (min-width: 769px) {
+    .project-details .btn-outline-light .action-icon {
+        margin-right: 5px;
+    }
+}
+
+/* Tech stack badges styling */
+.project-details .badge.bg-dark {
+    background: rgba(50, 45, 80, 0.8) !important;
+    color: #C9C9E2;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Status badges with custom colors */
+.project-details .badge.bg-success {
+    background: rgba(40, 167, 69, 0.8) !important;
+}
+
+.project-details .badge.bg-primary {
+    background: rgba(13, 110, 253, 0.8) !important;
+}
+
+.project-details .badge.bg-warning {
+    background: rgba(255, 193, 7, 0.8) !important;
+}
+
+.project-details .badge.bg-info {
+    background: rgba(13, 202, 240, 0.8) !important;
+}
+
+.project-details .badge.bg-secondary {
+    background: rgba(108, 117, 125, 0.8) !important;
+}
+
+/* Large desktop optimizations */
+@media (min-width: 1400px) {
+    .file-explorer {
+        margin: 30px 0;
+        width: 100%;
+    }
+    
+    .explorer-content {
+        min-height: 600px;
+    }
+    
+    .folder-tree {
+        height: 600px;
+        padding: 25px 20px;
+    }
+    
+    .content-panel {
+        height: 600px;
+    }
+    
+    .empty-icon {
+        font-size: 4rem;
+    }
+    
+    .empty-state h5 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Gallery Styles */
+/* gallery-container padding now handled by Bootstrap p-3 p-md-4 classes */
+
+.gallery-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gallery-project-title {
+    color: #C9C9E2;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.gallery-project-type {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 2rem;
+}
+
+.gallery-item {
+    background: rgba(25, 20, 45, 0.4);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.gallery-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-image img {
+    transform: scale(1.05);
+}
+
+.gallery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.7) 0%,
+        transparent 50%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.gallery-info .gallery-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.gallery-info .gallery-category {
+    color: #C9C9E2;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.gallery-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tool-tag {
+    background: rgba(78, 91, 146, 0.8);
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.gallery-details {
+    padding: 20px;
+}
+
+.gallery-details .item-title {
+    color: #C9C9E2;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.gallery-details .item-description {
+    color: #8D8D8D;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.gallery-details .item-date {
+    color: #8D8D8D;
+    font-size: 0.8rem;
+}
+
+/* Gallery Modal Styles */
+.modal {
+    z-index: 9999 !important;
+}
+
+.modal-backdrop {
+    z-index: 9998 !important;
+}
+
+.modal-dialog {
+    margin: 1.75rem auto;
+}
+
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 3.5rem);
+}
+
+.modal-content {
+    background: rgba(17, 13, 38, 0.95) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 10000;
+    width: 100%;
+    max-width: 100%;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.modal-title {
+    color: #C9C9E2;
+    font-weight: 600;
+}
+
+.btn-close-white {
+    filter: invert(1);
+    opacity: 0.8;
+}
+
+.btn-close-white:hover {
+    opacity: 1;
+}
+
+#modalImage {
+    max-height: 70vh;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+#modalDescription {
+    color: #8D8D8D;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Gallery Carousel Enhancements */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+
+#imageCounter {
+    font-size: 0.9rem;
+    min-width: 60px;
+    text-align: center;
+}
+
+#imageCaption {
+    font-style: italic;
+    color: #C9C9E2 !important;
+    min-height: 1.2rem;
+}
+
+/* Mobile Gallery Adjustments - Use Bootstrap responsive classes in HTML */
+@media (max-width: 768px) {
+    .gallery-image {
+        height: 180px;
+    }
+}
+    
+
+    
+    .modal-title {
+        font-size: 1.1rem !important;
+    }
+
+/* Tablet Gallery Adjustments */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* Large Desktop Gallery */
+@media (min-width: 1200px) {
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    
+    .gallery-image {
+        height: 220px;
+    }
+}
+
+/* Accordion Animation Styles - Only for project folders */
+.folder-tree .collapse {
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+}
+
+.folder-tree .collapse:not(.show) {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.folder-tree .collapse.show {
+    max-height: 500px; /* Adjust based on content */
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.folder-tree .collapse.collapsing {
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Folder Header Animation */
+.folder-header {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.folder-item[aria-expanded="true"] .folder-header {
+    background: rgba(60, 55, 90, 0.8);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateX(2px);
+}
+
+/* Subfolder Contents Animation */
+.subfolder-contents {
+    transition: all 0.3s ease;
+    transform-origin: top;
+}
+
+.collapse:not(.show) .subfolder-contents {
+    transform: scaleY(0.8);
+    opacity: 0;
+}
+
+.collapse.show .subfolder-contents {
+    transform: scaleY(1);
+    opacity: 1;
+    animation: fadeInUp 0.4s ease 0.1s both;
+}
+
+.collapse.collapsing .subfolder-contents {
+    transform: scaleY(0.8);
+    opacity: 0;
+}
+
+/* Contact Section Styles */
+#contacts {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.contact-item {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.contact-input {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.contact-input:focus {
+    background: rgba(255, 255, 255, 0.15) !important;
+    border-color: rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+}
+
+.contact-input::placeholder {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.contact-form label {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.5rem;
+}
+
+.hover-opacity-100:hover {
+    opacity: 1 !important;
+    transition: opacity 0.3s ease;
+}
+
+/* Contact Form Button */
+.contact-form .btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-form .btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    transition: left 0.3s ease;
+    z-index: -1;
+}
+
+.contact-form .btn-primary:hover::before {
+    left: 0;
+}
+
+.contact-form .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+}
+
+/* Footer Styles */
+.footer-tagline {
+    font-style: italic;
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+
+.tech-badge {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+/* Contact OR Divider */
+.contact-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    position: relative;
+}
+
+.contact-divider::before,
+.contact-divider::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 40px;
+    background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.3), transparent);
+}
+
+.contact-divider::before {
+    top: -50px;
+}
+
+.contact-divider::after {
+    bottom: -50px;
+}
+
+.or-text {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Fade in up animation for subfolder contents */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scaleY(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scaleY(1);
+    }
+}
+
+/* Sub-file item animations */
+.sub-file-item {
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateX(0);
+}
+
+.collapse.show .sub-file-item {
+    animation: slideInLeft 0.3s ease both;
+}
+
+.collapse.show .sub-file-item:nth-child(1) { animation-delay: 0.05s; }
+.collapse.show .sub-file-item:nth-child(2) { animation-delay: 0.1s; }
+.collapse.show .sub-file-item:nth-child(3) { animation-delay: 0.15s; }
+.collapse.show .sub-file-item:nth-child(4) { animation-delay: 0.2s; }
+.collapse.show .sub-file-item:nth-child(5) { animation-delay: 0.25s; }
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,400 @@
+{
+  "folders": {
+    "Programming": {
+      "projects": {
+        "Portfolio Website": {
+          "type": "Web Development",
+          "showTable": true,
+          "items": [
+            {
+              "title": "Harley's Portfolio",
+              "description": "Modern portfolio website built with Bootstrap and JavaScript",
+              "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+              "date": "2025-09-11",
+              "status": "Live",
+              "actions": [
+                {
+                  "label": "GitHub",
+                  "url": "#"
+                },
+                {
+                  "label": "View Live",
+                  "url": "#"
+                }
+              ]
+            }
+          ]
+        },
+        "Web Dashboard": {
+          "type": "Full Stack Application",
+          "showTable": true,
+          "items": [
+            {
+              "title": "THMS-Monitor",
+              "description": "A Web App built for me and my friends to know if our Minecraft server is working.",
+              "techStack": ["Node.js", "EJS", "CSS", "Bootstrap"],
+              "date": "2025-08-01",
+              "status": "Complete",
+              "actions": [
+                {
+                  "label": "Github",
+                  "url": "https://github.com/Harleythetech/THMS-Monitor"
+                }
+              ]
+            },
+            {
+              "title": "Corewatch",
+              "description": "A Lightweight Web Interface for monitoring your SBC's. Powered by NodeJS (EJS), Bootstrap, systeminformation",
+              "techStack": ["Node.js", "Bootstrap", "Systeminformation"],
+              "date": "2025-07-09",
+              "status": "Complete",
+              "actions": [
+                {
+                  "label": "Github",
+                  "url": "https://github.com/Harleythetech/Corewatch"
+                }
+              ]
+            },
+            {
+              "title": "Enrollment System",
+              "description": "Another small project made in php",
+              "techStack": ["PHP", "Hack", "JavaScript", "Bootstrap", "MariaDB"],
+              "date": "2025-03-31",
+              "status": "Complete",
+              "actions": [
+                {
+                  "label": "Github",
+                  "url": "https://github.com/Harleythetech/Enrollment-System"
+                }
+              ]
+            },
+            {
+              "title": "MyUniPortal",
+              "description": "Not Affiliated with PLSP. A simple portal system made in php",
+              "techStack": ["PHP", "Bootstrap", "MariaDB"],
+              "date": "2025-06-09",
+              "status": "Complete",
+              "actions": [
+                {
+                  "label": "Github",
+                  "url": "https://github.com/PLSP-SDP/MyUniPortal"
+                }
+              ]
+            },
+            {
+              "title": "CostoBrew",
+              "description": "A modern, responsive web application for custom coffee blending and ordering, featuring Firebase authentication, Google Sign-In, and an interactive Coffee Studio for creating personalized coffee blends.",
+              "techStack": ["PHP", "HTML", "CSS", "Bootstrap", "JavaScript", "Firebase"],
+              "date": "2025-06-25",
+              "status": "Complete",
+              "actions": [
+                {
+                  "label": "Github",
+                  "url": "https://github.com/CostoBrew/Costo"
+                }
+              ]
+            }
+          ]
+        },
+        "Game Project": {
+          "type": "Game Development",
+          "showTable": true,
+          "items": [
+            {
+              "title": "Rock Paper Scissors",
+              "description": "Rock Paper Scissors is a basic game built on C# as a Console Application",
+              "techStack": ["C#"],
+              "date": "2023-12-14",
+              "status": "Complete",
+              "actions": [
+                {
+                  "label": "Github",
+                  "url": "https://github.com/Harleythetech/RPS-Game"
+                },
+                {
+                  "label": "Releases",
+                  "url": "https://github.com/Harleythetech/RPS-Game/releases/tag/V3.5.r4"
+                }
+              ]
+            },
+            {
+              "title": "Rock Paper Scissors JS",
+              "description": "It's Rock Paper Scissors In JS!",
+              "techStack": ["JavaScript"],
+              "date": "2025-03-18",
+              "status": "Complete",
+              "actions": [
+                {
+                  "label": "Github",
+                  "url": "https://github.com/Harleythetech/RPS-JS-Edition"
+                }
+              ]
+            }
+          ]
+        },
+        "Others": {
+          "type": "Others - Various Projects",
+          "showTable": true,
+          "items": [
+            {
+              "title": "PLSP Game Enthusiasts",
+              "description": "The Main Website For PLSP Game Enthusiast",
+              "techStack": ["JavaScript"],
+              "date": "2024-12-30",
+              "status": "Live",
+              "actions": [
+                {
+                  "label": "GitHub",
+                  "url": "https://github.com/PLSPGameEnt/PLSPGE-WEB"
+                },
+                {
+                  "label": "View Live",
+                  "url": "https://plspgameent.github.io/PLSPGE-WEB/"
+                }
+              ]
+            },
+            {
+              "title": "Lineage Sumire Archives",
+              "description": "Archive of Lineage OS Unofficial for the Sony Xperia Z5 (Sumire) ",
+              "techStack": ["N/A"],
+              "date": "2025-08-27",
+              "status": "Archived",
+              "actions": [
+                {
+                  "label": "Releases",
+                  "url": "https://github.com/Harleythetech/Lineage-Sumire-Archives/releases"
+                }
+              ]
+            },
+            {
+              "title": "Messenger WVMSF",
+              "description": "A Windows Form Version of Messenger using Webview. because they broke the React Build.",
+              "techStack": ["C#", "Webview2"],
+              "date": "2024-11-10",
+              "status": "Complete",
+              "actions": [
+                {
+                  "label": "GitHub",
+                  "url": "https://github.com/Harleythetech/Messenger_WVMSF"
+                },{
+                  "label": "Releases",
+                  "url": "https://github.com/Harleythetech/Messenger_WVMSF/releases/tag/V1-MUB"
+                }
+              ]
+            },
+            {
+              "title": "iPTV Scanner",
+              "description": "A free iPTV Scanner to check for your dead or alive links.",
+              "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+              "date": "2024-08-14",
+              "status": "Live",
+              "actions": [
+                {
+                  "label": "GitHub",
+                  "url": "https://github.com/Harleythetech/iPTV-Scanner"
+                },{
+                  "label": "View Live",
+                  "url": "https://harleythetech.github.io/iPTV-Scanner/"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "Designs": {
+      "projects": {
+        "Brand Identity": {
+          "type": "Graphic Design",
+          "showGallery": true,
+          "items": [
+            {
+              "title": "Club Of Programmers",
+              "description": "Logo & Banners for a Programming Club",
+              "images": [
+                {
+                  "url": "./src/Images/COPS/Stages of logo.png",
+                  "caption": "Stages of Logo"
+                },
+                {
+                  "url": "./src/Images/COPS/Final iteration of logo.png",
+                  "caption": "Final Iteration of the Logo"
+                },
+                {
+                  "url": "./src/Images/COPS/Election Forum.jpg",
+                  "caption": "Election Forum Banner"
+                }
+              ],
+              "image": "./src/Images/COPS/Final iteration of logo.png",
+              "category": "Club Identity",
+              "tools": ["Adobe Photoshop", "Figma"]
+            },
+            {
+              "title": "Asami The navi vtuber in training",
+              "description": "Logo & Banners for Asami",
+              "images": [
+                {
+                  "url": "./src/Images/Asami/Asami server logo.png",
+                  "caption": "Server Logo"
+                },
+                {
+                  "url": "./src/Images/Asami/Asami logo ill do latur - 1080p.png",
+                  "caption": "Stream Logo"
+                },
+                {
+                  "url": "./src/Images/Asami/Banner.png",
+                  "caption": "Stream Banner"
+                },
+                {
+                  "url": "./src/Images/Asami/Discord Banner.png",
+                  "caption": "Discord Banner"
+                },
+                {
+                  "url": "./src/Images/Asami/The nya card.png",
+                  "caption": "A special card for her fans"
+                } 
+              ],
+              "image": "./src/Images/Asami/Asami server logo.png",
+              "category": "Vtuber Identity",
+              "tools": ["Adobe Photoshop"]
+            }
+          ]
+        },
+        "Mobile UI/UX": {
+          "type": "UI/UX Design",
+          "showGallery": true,
+          "items": [
+            {
+              "title": "PLSP Student Portal (Concept)",
+              "description": "A Concept Design for PLSP Student Portal",
+              "images": [
+                {
+                  "url": "./src/Images/PLSP Student Portal/Dashboard.png",
+                  "caption": "Dashboard View"
+                },
+                {
+                  "url": "./src/Images/PLSP Student Portal/Grades.png",
+                  "caption": "Grades View"
+                },
+                {
+                  "url": "./src/Images/PLSP Student Portal/PLSP Login Screen.png",
+                  "caption": "PLSP Login Screen"
+                }
+              ],
+              "image": "./src/Images/PLSP Student Portal/PLSP Login Screen.png",
+              "category": "Concept Design",
+              "tools": ["Figma"]
+            },
+            {
+              "title": "Costobrew (Concept)",
+              "description": "My First take into making a huge E-Commerece Website Concept",
+              "preview-image": "./src/Images/CBrew/CostoBrew_Home.png",
+              "iframe-url": "https://embed.figma.com/design/n33kS26N1QHxE3kxQmZrMs/CostoBrew?node-id=42-478&embed-host=share",
+              "category": "Website Concept",
+              "tools": ["Figma"]
+            },
+            {
+              "title": "PlayGuide",
+              "description": "The ultimate community-driven, open-source game guide app for expert tips and comprehensive guides.",
+              "preview-image": "https://avatars.githubusercontent.com/u/130204644?s=200&v=4",
+              "iframe-url": "https://embed.figma.com/design/pvPGHKeqZfzS5Gd1Af1Crt/Mobile-Application-Project--Project-Unknown-?node-id=0-1&embed-host=share",
+              "category": "Mobile App",
+              "tools": ["Figma"]
+            },
+            {
+              "title": "Bionic Reading Library",
+              "description": "A project showcasing a mobile app for enhancing reading comprehension.",
+              "preview-image": "https://avatars.githubusercontent.com/u/148675967?s=200&v=4",
+              "iframe-url": "https://embed.figma.com/design/CaUiE1ICrX294ksBSEYLMW/Project--BRL---Bionic-Reading-Library?node-id=0-1&embed-host=share",
+              "category": "Mobile App",
+              "tools": ["Figma"]
+            }
+          ]
+        },
+        "Graphic Designs": {
+          "type": "Visual Design",
+          "showGallery": true,
+          "items": [
+            {
+              "title": "COPS: All Passed Cutie",
+              "description": "A cute poster design for COPS",
+              "image": "./src/Images/COPS/All Passed Cutie.jpg",
+              "category": "Social Media Publication Material",
+              "tools": ["Adobe Photoshop"]
+            },
+            {
+              "title": "COPS: Code Wars",
+              "description": "A competitive poster design for COPS",
+              "image": "./src/Images/COPS/Code Wars.jpg",
+              "category": "Social Media Publication Material",
+              "tools": ["Adobe Photoshop"]
+            },
+            {
+              "title": "COPS: MLBB Tournament",
+              "description": "A competitive poster design for COPS",
+              "image": "./src/Images/COPS/MLBB.jpg",
+              "category": "Social Media Publication Material",
+              "tools": ["Adobe Photoshop"]
+            }
+          ]
+        },
+        "Streaming Graphics": {
+          "type": "Visual Design",
+          "showGallery": true,
+          "items": [
+            {
+              "title": "CCST: CyberClash V1",
+              "description": "A Overlay made for the Mobile legends tournament of CCST",
+              "images": [
+                {
+                  "url": "./src/Images/CCST/Main Design.png",
+                  "caption": "Main Design"
+                },
+                {
+                  "url": "./src/Images/CCST/In-Game Overlay.png",
+                  "caption": "In-Game Overlay"
+                },
+                {
+                  "url": "./src/Images/PLSP Student Portal/PLSP Login Screen.png",
+                  "caption": "PLSP Login Screen"
+                }
+              ],
+              "image": "./src/Images/CCST/Main Design.png",
+              "category": "Overlay Design",
+              "tools": ["Adobe Photoshop", "Adobe After Effects", "OBS Studio"]
+            },
+            {
+              "title": "CCST: CyberClash V2",
+              "description": "A Overlay made for the Mobile legends tournament of CCST Version 2",
+              "images": [
+                {
+                  "url": "./src/Images/CCST2/Start.png",
+                  "caption": "Main Design"
+                },
+                {
+                  "url": "./src/Images/CCST2/In-Game Overlay.png",
+                  "caption": "In-Game Overlay"
+                },
+                {
+                  "url": "./src/Images/CCST2/Game Match Indicator.png",
+                  "caption": "Game Match Indicator"
+                },
+                {
+                  "url": "./src/Images/CCST2/END.png",
+                  "caption": "End Screen"
+                },
+                {
+                  "url": "./src/Images/CCST2/BG.png",
+                  "caption": "Background"
+                }
+              ],
+              "image": "./src/Images/CCST2/Start.png",
+              "category": "Overlay Design",
+              "tools": ["Adobe Photoshop", "Adobe After Effects", "OBS Studio"]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
