@@ -1247,6 +1247,41 @@ body{
     box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
 }
 
+/* Calendar Section Styles */
+.calendar-container {
+    width: 100%;
+    height: calc(100vh - 300px); /* Full viewport height minus navbar, headers, and padding */
+    min-height: 500px; /* Minimum height for usability */
+    max-height: 5000px; /* Maximum height to prevent excessive size on large screens */
+    border-radius: 8px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.calendar-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Responsive calendar adjustments */
+@media (max-width: 768px) {
+    .calendar-container {
+        height: calc(100vh - 250px);
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .calendar-container {
+        height: calc(100vh - 200px);
+        min-height: 350px;
+    }
+}
+
 /* Footer Styles */
 .footer-tagline {
     font-style: italic;
