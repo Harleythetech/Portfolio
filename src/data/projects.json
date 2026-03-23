@@ -2,6 +2,38 @@
   "folders": {
     "Programming": {
       "projects": {
+        "Active Development": {
+          "type": "Active Development Projects",
+          "showTable": true,
+          "items": [
+            {
+              "title": "OpenAuto: RK3229 Armbian Port",
+              "description": "OpenAuto for RK3229 boards, with working Hardware Decoding H264 ",
+              "techStack": ["C++", "Shell", "QML", "CMake"],
+              "date": "2025-02-08",
+              "status": "Active Development",
+              "actions": [
+                {
+                  "label": "Releases",
+                  "url": "https://github.com/Harleythetech/openauto-rk3229-armbian/releases"
+                }
+              ]
+            },
+            {
+              "title": "Flick",
+              "description": "Flick Player is a high-performance music player for Android that delivers bit-perfect audio through external USB DACs and amplifiers via a custom Rust-based UAC 2.0 implementation. It features a 10-band equalizer, automatic music library scanning with metadata extraction, gapless playback built with Flutter. ",
+              "techStack": ["Dart / Flutter", "Rust"],
+              "date": "2025-03-22",
+              "status": "Active Development",
+              "actions": [
+                {
+                  "label": "Releases",
+                  "url": "https://github.com/ultraelectronica/Flick/releases"
+                }
+              ]
+            }
+          ]
+        },
         "Portfolio Website": {
           "type": "Web Development",
           "showTable": true,
@@ -25,72 +57,41 @@
             }
           ]
         },
-        "Web Dashboard": {
-          "type": "Full Stack Application",
+        "Websites": {
+          "type": "Static / Dynamic Websites",
           "showTable": true,
           "items": [
             {
-              "title": "THMS-Monitor",
-              "description": "A Web App built for me and my friends to know if our Minecraft server is working.",
-              "techStack": ["Node.js", "EJS", "CSS", "Bootstrap"],
-              "date": "2025-08-01",
-              "status": "Complete",
+              "title": "PLSP Game Enthusiasts",
+              "description": "The Main Website For PLSP Game Enthusiast",
+              "techStack": ["JavaScript"],
+              "date": "2024-12-30",
+              "status": "Live",
               "actions": [
                 {
-                  "label": "Github",
-                  "url": "https://github.com/Harleythetech/THMS-Monitor"
+                  "label": "GitHub",
+                  "url": "https://github.com/PLSPGameEnt/PLSPGE-WEB"
+                },
+                {
+                  "label": "View Live",
+                  "url": "https://plspgameent.github.io/PLSPGE-WEB/"
                 }
               ]
             },
             {
-              "title": "Corewatch",
-              "description": "A Lightweight Web Interface for monitoring your SBC's. Powered by NodeJS (EJS), Bootstrap, systeminformation",
-              "techStack": ["Node.js", "Bootstrap", "Systeminformation"],
-              "date": "2025-07-09",
-              "status": "Complete",
+              "title": "iPTV Scanner",
+              "description": "A free iPTV Scanner to check for your dead or alive links.",
+              "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+              "date": "2024-08-14",
+              "status": "Live",
               "actions": [
                 {
-                  "label": "Github",
-                  "url": "https://github.com/Harleythetech/Corewatch"
-                }
-              ]
-            },
-            {
-              "title": "Enrollment System",
-              "description": "Another small project made in php",
-              "techStack": ["PHP", "Hack", "JavaScript", "Bootstrap", "MariaDB"],
-              "date": "2025-03-31",
-              "status": "Complete",
-              "actions": [
+                  "label": "GitHub",
+                  "url": "https://github.com/Harleythetech/iPTV-Scanner"
+                },
                 {
-                  "label": "Github",
-                  "url": "https://github.com/Harleythetech/Enrollment-System"
-                }
-              ]
-            },
-            {
-              "title": "MyUniPortal",
-              "description": "Not Affiliated with PLSP. A simple portal system made in php",
-              "techStack": ["PHP", "Bootstrap", "MariaDB"],
-              "date": "2025-06-09",
-              "status": "Complete",
-              "actions": [
-                {
-                  "label": "Github",
-                  "url": "https://github.com/PLSP-SDP/MyUniPortal"
-                }
-              ]
-            },
-            {
-              "title": "CostoBrew",
-              "description": "A modern, responsive web application for custom coffee blending and ordering, featuring Firebase authentication, Google Sign-In, and an interactive Coffee Studio for creating personalized coffee blends.",
-              "techStack": ["PHP", "HTML", "CSS", "Bootstrap", "JavaScript", "Firebase"],
-              "date": "2025-06-25",
-              "status": "Complete",
-              "actions": [
-                {
-                  "label": "Github",
-                  "url": "https://github.com/CostoBrew/Costo"
+                  "label": "View Live",
+                  "url": "https://harleythetech.github.io/iPTV-Scanner/"
                 }
               ]
             }
@@ -137,23 +138,6 @@
           "showTable": true,
           "items": [
             {
-              "title": "PLSP Game Enthusiasts",
-              "description": "The Main Website For PLSP Game Enthusiast",
-              "techStack": ["JavaScript"],
-              "date": "2024-12-30",
-              "status": "Live",
-              "actions": [
-                {
-                  "label": "GitHub",
-                  "url": "https://github.com/PLSPGameEnt/PLSPGE-WEB"
-                },
-                {
-                  "label": "View Live",
-                  "url": "https://plspgameent.github.io/PLSPGE-WEB/"
-                }
-              ]
-            },
-            {
               "title": "Lineage Sumire Archives",
               "description": "Archive of Lineage OS Unofficial for the Sony Xperia Z5 (Sumire) ",
               "techStack": ["N/A"],
@@ -176,25 +160,10 @@
                 {
                   "label": "GitHub",
                   "url": "https://github.com/Harleythetech/Messenger_WVMSF"
-                },{
+                },
+                {
                   "label": "Releases",
                   "url": "https://github.com/Harleythetech/Messenger_WVMSF/releases/tag/V1-MUB"
-                }
-              ]
-            },
-            {
-              "title": "iPTV Scanner",
-              "description": "A free iPTV Scanner to check for your dead or alive links.",
-              "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap"],
-              "date": "2024-08-14",
-              "status": "Live",
-              "actions": [
-                {
-                  "label": "GitHub",
-                  "url": "https://github.com/Harleythetech/iPTV-Scanner"
-                },{
-                  "label": "View Live",
-                  "url": "https://harleythetech.github.io/iPTV-Scanner/"
                 }
               ]
             }
@@ -252,7 +221,7 @@
                 {
                   "url": "./src/Images/Asami/The nya card.png",
                   "caption": "A special card for her fans"
-                } 
+                }
               ],
               "image": "./src/Images/Asami/Asami server logo.png",
               "category": "Vtuber Identity",
