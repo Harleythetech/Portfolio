@@ -62,6 +62,23 @@
           "showTable": true,
           "items": [
             {
+              "title": "Flick",
+              "description": "Flick Player is a high-performance music player application built with Flutter and Rust, designed primarily for audiophiles who demand bit-perfect audio playback through external DACs and amplifiers. ",
+              "techStack": ["Vite", "Tailwind CSS", "TypeScript"],
+              "date": "2026-03-27",
+              "status": "Live",
+              "actions": [
+                {
+                  "label": "GitHub",
+                  "url": "https://github.com/ultraelectronica/Flick"
+                },
+                {
+                  "label": "View Live",
+                  "url": "https://flick-nine.vercel.app/"
+                }
+              ]
+            },
+            {
               "title": "PLSP Game Enthusiasts",
               "description": "The Main Website For PLSP Game Enthusiast",
               "techStack": ["JavaScript"],
